@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all
+}
+
+/* Gray theme */
+@plugin "daisyui/theme" {
+  name: "myDarkTheme";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(14% 0 0);
+  --color-base-200: oklch(20% 0 0);
+  --color-base-300: oklch(26% 0 0);
+  --color-base-content: oklch(97% 0 0);
+  --color-primary: oklch(71% 0.202 349.761);
+  --color-primary-content: oklch(28% 0.109 3.907);
+  --color-secondary: oklch(75% 0.183 55.934);
+  --color-secondary-content: oklch(26% 0.079 36.259);
+  --color-accent: oklch(67% 0.182 276.935);
+  --color-accent-content: oklch(25% 0.09 281.288);
+  --color-neutral: oklch(37% 0 0);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(71% 0.143 215.221);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(69% 0.17 162.48);
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: oklch(76% 0.188 70.08);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(63% 0.237 25.331);
+  --color-error-content: oklch(97% 0.013 17.38);
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.3125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* pastelDark theme */
+@plugin "daisyui/theme" {
+  name: "myPastelDark";
+  default: false;
+  color-scheme: dark;
+
+  /* Core colors */
+  --color-primary: #937DC2;
+  --color-primary-content: #FFE6F7;
+
+  --color-secondary: #C689C6;
+  --color-secondary-content: #FFE6F7;
+
+  --color-accent: #FFABE1;
+  --color-accent-content: #937DC2;
+
+  /* Neutral tone */
+  --color-neutral: #2C2A33; /* Dark gray for text and surfaces */
+  --color-neutral-content: #FFE6F7;
+
+  /* Background bases */
+  --color-base-100: #1B1A1F;
+  --color-base-200: #252328;
+  --color-base-300: #2C2A33;
+  --color-base-content: #FFE6F7;
+
+  /* Semantic colors */
+  --color-info: #937DC2;
+  --color-info-content: #FFE6F7;
+
+  --color-success: #C689C6;
+  --color-success-content: #1B1A1F;
+
+  --color-warning: #FFABE1;
+  --color-warning-content: #1B1A1F;
+
+  --color-error: #FFABE1;
+  --color-error-content: #FFE6F7;
+
+  /* Optional styling variables */
+  --radius-box: 1rem;
+  --radius-field: 0.5rem;
+  --radius-selector: 0.25rem;
+  --border: 1px;
+}
+
+body {
+  font-family: "Poppins",sans-serif;
+}
