@@ -30,7 +30,7 @@ function Hero() {
                         }
                     </ul>
 
-                    <a href="/resume.pdf" download="Karim_Chehab_Resume.pdf" className="btn btn-primary btn-lg">
+                    <a href="/personal-portfolio/resume.pdf" download="Karim_Chehab_Resume.pdf" className="btn btn-primary btn-lg">
                         <FaDownload />
                         Download Resume
                     </a>
