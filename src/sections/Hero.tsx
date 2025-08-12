@@ -1,6 +1,7 @@
 import { FaDownload } from "react-icons/fa6";
 import profilePic from "../assets/ProfilePicFormal_cropped.png"
 import { socialLinks } from "../constants";
+import resume from "../assets/resume.pdf"
 
 function Hero() {
     return (
@@ -30,7 +31,7 @@ function Hero() {
                         }
                     </ul>
 
-                    <a href="/personal-portfolio/resume.pdf" download="Karim_Chehab_Resume.pdf" className="btn btn-primary btn-lg">
+                    <a href={resume} download="Karim_Chehab_Resume.pdf" className="btn btn-primary btn-lg">
                         <FaDownload />
                         Download Resume
                     </a>
