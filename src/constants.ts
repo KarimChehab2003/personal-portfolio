@@ -166,3 +166,11 @@ export const themes = [
     "myPastelDark",
     "myDarkTheme"
 ];
+
+export const terminalLines: string[] = [
+    "npm i karim.dev",
+    "petting the server...",
+    "tickling the database... giggles",
+    "installing good vibes...",
+    "Done!"
+]
