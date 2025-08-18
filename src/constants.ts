@@ -12,8 +12,10 @@ import inventoryManagerImage from "./assets/projectImages/inventoryManager.png"
 import coderaWebsiteImage from "./assets/projectImages/coderaWebsite.png"
 import coderaWebsitePreview from "./assets/projectImages/coderaPreview.mp4"
 import shopEaseImage from "./assets/projectImages/e-commerceImage.png";
+import personalFinanceManagerImage from "./assets/projectImages/personal-finance-manager.png"
 import reactQueryProjectsImage from "./assets/projectImages/reactQueryProjects.png"
 import zustandProjectsImage from "./assets/projectImages/zustandPracticeProjects.png"
+
 
 export const navbarLinks: NavItem[] = [
     { id: "home", label: "Home" },
@@ -92,6 +94,14 @@ export const workExperience: Work[] = [
 
 
 export const projects: ProjectItem[] = [
+    {
+        title: "Personal Finance Manager",
+        description: "A simple web application to manage personal income and expenses. Supports login via Google OAuth",
+        image: personalFinanceManagerImage,
+        technologies: ["React", "Typescript", "TailwindCSS", "React Query", "Zustand", "Firebase"],
+        codeUrl: "https://github.com/KarimChehab2003/personal-finance-manager",
+        liveDemoUrl: "https://karimchehab2003.github.io/personal-finance-manager/",
+    },
     {
         title: "Inventory Manager",
         description: "Allows users to efficiently manage products, track stock levels, and perform CRUD operations with real-time updates.",
