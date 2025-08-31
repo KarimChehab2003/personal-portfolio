@@ -18,7 +18,7 @@ function Hero() {
                     <h1 className="text-5xl font-bold mb-4">Karim Chehab</h1>
                     <h2 className="text-2xl text-primary font-semibold capitalize mb-4">frontend developer</h2>
                     <p className="text-lg mb-2">📍 Cairo, Egypt</p>
-                    <p className="text-xl mb-8 max-w-2xl mx-auto">I specialize in creating beautiful, responsive web applications with modern JavaScript frameworks and pixel-perfect designs with 2 years of hands-on.</p>
+                    <p className="text-xl mb-8 max-w-2xl mx-auto">I specialize in creating beautiful, responsive web applications with modern JavaScript frameworks and pixel-perfect designs with 2 years of hands-on experience.</p>
 
                     {/* Social LInks */}
                     <ul className="flex justify-center gap-4 mb-8">
