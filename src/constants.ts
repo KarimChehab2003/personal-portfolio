@@ -22,6 +22,7 @@ import shopEaseImage from "./assets/projectImages/e-commerceImage.png";
 import personalFinanceManagerImage from "./assets/projectImages/personal-finance-manager.png";
 import reactQueryProjectsImage from "./assets/projectImages/reactQueryProjects.png";
 import eCommerceNextjsImage from "./assets/projectImages/e-commerce-nextjs.png";
+import theNormalityImage from "./assets/projectImages/the-normality.png"
 
 export const navbarLinks: NavItem[] = [
   { id: "home", label: "Home" },
@@ -105,6 +106,15 @@ export const workExperience: Work[] = [
 ];
 
 export const projects: ProjectItem[] = [
+  {
+    title: "The Normality - Anomaly Spotting Game",
+    description:
+      "A QA inspector game where you review a website left unfinished by a deceased developer. Spot anomalies, follow protocols, and win by careful observation",
+    image: theNormalityImage,
+    technologies: ["Next.js", "React", "Typescript", "TailwindCSS", "Zustand"],
+    codeUrl: "https://github.com/KarimChehab2003/the-normality",
+    liveDemoUrl: "https://the-normality.vercel.app/",
+  },
   {
     title: "Next.js E-Commerce Store",
     description:
